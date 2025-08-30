@@ -1,4 +1,6 @@
-# Virtual-Machine-Brute-Force-Detection
+# Virtual Machine Brute Force Detection
+<img width="642" height="325" alt="image" src="https://github.com/user-attachments/assets/162368ec-ed90-412a-92c7-16ae7dc90ee6" />
+
 
 ## Platforms and Languages Leveraged
 - Windows 10 Virtual Machines (Microsoft Azure)
@@ -42,17 +44,19 @@ Containment:
 Isolated Device in MDE on all four devices.
 Ran anti-malware scan on all four devices.
 NSG was locked down to prevent RDP attempts from the public internet.
-Corporate policy was proposed to require this for all VMs going forward. (this can be done with Azure Policy)
 
 <img width="1560" height="672" alt="brave_gMgfeWaKs8" src="https://github.com/user-attachments/assets/90b46821-ba54-4f0b-82fe-cca9911f396a" />
 
 <img width="1550" height="619" alt="brave_xLUkLMYCrU" src="https://github.com/user-attachments/assets/fed7f0c3-71c3-4888-8f16-dae8b285f2e6" />
 
 Eradication:
-Brute force was not successful, no threats related to this incident.
+Brute force was not successful, no threats related to this incident. 
+
+Post-Incident:
+Notes were recorded within the incident and a corporate policy was proposed to require this for all VMs going forward. (this can be done with Azure Policy). The incident was then closed out. 
+
 
 <img width="372" height="369" alt="brave_z4GzfUct4H" src="https://github.com/user-attachments/assets/c18a4cfb-b9ae-44b1-a905-7f5fa835a82b" />
 
 <img width="484" height="279" alt="brave_7q35FMeWUI" src="https://github.com/user-attachments/assets/5be3a107-2316-4083-b89f-be2b4840f5fb" />
-
 
