@@ -22,7 +22,7 @@ A Sentinel Scheduled Query Rule was designed within Log Analytics to discover wh
 
 ---
 ## Look for any alerts
-After creating the alert, the next step is to check for any alerts that were triggered and resulted in an incident. In the cyber range environment, an incident was generated immediately following the creation of the alert, indicating that the detection rule functioned as expected and successfully identified suspicious activity.
+After creating the alert, the next step was to check for any alerts that were triggered and resulted in an incident. In the cyber range environment, an incident was generated immediately following the creation of the alert, indicating that the detection rule functioned as expected and successfully identified suspicious activity.
 
 <img width="972" height="428" alt="brave_yOB7PJammk" src="https://github.com/user-attachments/assets/482dc3d2-7dca-446c-af82-aabe621eb349" />
 
