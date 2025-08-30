@@ -52,6 +52,7 @@ NSG was locked down to prevent RDP attempts from the public internet.
 
 <img width="1550" height="619" alt="brave_xLUkLMYCrU" src="https://github.com/user-attachments/assets/fed7f0c3-71c3-4888-8f16-dae8b285f2e6" />
 
+
 Eradication:
 Brute force was not successful, no threats related to this incident. 
 
