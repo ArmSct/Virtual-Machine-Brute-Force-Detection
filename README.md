@@ -28,6 +28,7 @@ After creating the alert, the next step was to check for any alerts that were tr
 
 <img width="1339" height="661" alt="brave_JKJS8VIJmQ" src="https://github.com/user-attachments/assets/3e156c98-f497-4a37-90d1-7f3f1ef5a6be" />
 
+---
 ## Analysis
 Checked if any of the IP addresses attempting to brute force successfully logged in with the following query, but none were successful:
 
