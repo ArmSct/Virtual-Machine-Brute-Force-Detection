@@ -28,7 +28,7 @@ After creating the alert, the next step is to check for any alerts that were tri
 
 <img width="1339" height="661" alt="brave_JKJS8VIJmQ" src="https://github.com/user-attachments/assets/3e156c98-f497-4a37-90d1-7f3f1ef5a6be" />
 
-## Work Incident
+## Analysis
 Checked if any of the IP addresses attempting to brute force successfully logged in with the following query, but none were successful:
 
 ```kql
@@ -40,6 +40,9 @@ DeviceLogonEvents
 <img width="999" height="415" alt="brave_3ixqxCKqtU" src="https://github.com/user-attachments/assets/0199bc6b-dd6f-403c-91a4-f2d18b4f8938" />
 
 ---
+## Work Incident
+Worked the incident in accordance to nist 800-61. 
+
 Containment:
 Isolated Device in MDE on all four devices.
 Ran anti-malware scan on all four devices.
