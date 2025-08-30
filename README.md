@@ -1,6 +1,5 @@
 # Virtual Machine Brute Force Detection
-<img width="642" height="325" alt="image" src="https://github.com/user-attachments/assets/162368ec-ed90-412a-92c7-16ae7dc90ee6" />
-
+<img width="458" height="223" alt="image" src="https://github.com/user-attachments/assets/95a2007e-eb35-4e9a-a87d-ef45a41ebed3" />
 
 ## Platforms and Languages Leveraged
 - Windows 10 Virtual Machines (Microsoft Azure)
