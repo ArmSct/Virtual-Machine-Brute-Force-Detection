@@ -23,7 +23,7 @@ A Sentinel Scheduled Query Rule was designed within Log Analytics to discover wh
 ## Work Incident
 Worked the incident in accordance to nist 800-61. 
 
-# Detection and Analysis
+### Detection and Analysis
 
 Detection:
 After creating the alert, the next step was to check for any alerts that were triggered and resulted in an incident. In the cyber range environment, an incident was generated immediately following the creation of the alert, indicating that the detection rule functioned as expected and successfully identified suspicious activity.
@@ -43,7 +43,7 @@ DeviceLogonEvents
 
 <img width="999" height="415" alt="brave_3ixqxCKqtU" src="https://github.com/user-attachments/assets/0199bc6b-dd6f-403c-91a4-f2d18b4f8938" />
 
-# Containment, Eradication, and Recovery
+### Containment, Eradication, and Recovery
 
 Containment:
 Isolated Device in MDE on all four devices.
