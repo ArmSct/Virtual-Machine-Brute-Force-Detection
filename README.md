@@ -20,15 +20,19 @@ A Sentinel Scheduled Query Rule was designed within Log Analytics to discover wh
 <img width="959" height="887" alt="brave_Btm2rmtkFB" src="https://github.com/user-attachments/assets/bf6c41f3-916e-4f5c-9ca5-b5135abd3f9f" />
 
 ---
-## Look for any alerts
+## Work Incident
+Worked the incident in accordance to nist 800-61. 
+
+# Detection and Analysis
+
+Detection:
 After creating the alert, the next step was to check for any alerts that were triggered and resulted in an incident. In the cyber range environment, an incident was generated immediately following the creation of the alert, indicating that the detection rule functioned as expected and successfully identified suspicious activity.
 
 <img width="972" height="428" alt="brave_yOB7PJammk" src="https://github.com/user-attachments/assets/482dc3d2-7dca-446c-af82-aabe621eb349" />
 
 <img width="1339" height="661" alt="brave_JKJS8VIJmQ" src="https://github.com/user-attachments/assets/3e156c98-f497-4a37-90d1-7f3f1ef5a6be" />
 
----
-## Analysis
+Analysis:
 Checked if any of the IP addresses attempting to brute force successfully logged in with the following query, but none were successful:
 
 ```kql
@@ -39,9 +43,7 @@ DeviceLogonEvents
 
 <img width="999" height="415" alt="brave_3ixqxCKqtU" src="https://github.com/user-attachments/assets/0199bc6b-dd6f-403c-91a4-f2d18b4f8938" />
 
----
-## Work Incident
-Worked the incident in accordance to nist 800-61. 
+# Containment, Eradication, and Recovery
 
 Containment:
 Isolated Device in MDE on all four devices.
@@ -52,13 +54,11 @@ NSG was locked down to prevent RDP attempts from the public internet.
 
 <img width="1550" height="619" alt="brave_xLUkLMYCrU" src="https://github.com/user-attachments/assets/fed7f0c3-71c3-4888-8f16-dae8b285f2e6" />
 
-
 Eradication:
-Brute force was not successful, no threats related to this incident. 
+Brute-force attempts were unsuccessful, and no threats have been identified in connection with this incident.
 
 Post-Incident:
 Notes were recorded within the incident and a corporate policy was proposed to require this for all VMs going forward. (this can be done with Azure Policy). The incident was then closed out. 
-
 
 <img width="372" height="369" alt="brave_z4GzfUct4H" src="https://github.com/user-attachments/assets/c18a4cfb-b9ae-44b1-a905-7f5fa835a82b" />
 
