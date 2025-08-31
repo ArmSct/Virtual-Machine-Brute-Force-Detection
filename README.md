@@ -46,9 +46,9 @@ DeviceLogonEvents
 ### Containment, Eradication, and Recovery
 
 Containment:
-Isolated Device in MDE on all four devices.
-Ran anti-malware scan on all four devices.
-NSG was locked down to prevent RDP attempts from the public internet.
+There was no need for containment as there were no successful brute-force attempts.
+
+In the case that there were a successful brute-force attempt, I would have isolated Device in MDE on all four devices, ran anti-malware scan on all four devices, and locked the down NSG to prevent RDP attempts from the public internet.
 
 <img width="1560" height="672" alt="brave_gMgfeWaKs8" src="https://github.com/user-attachments/assets/90b46821-ba54-4f0b-82fe-cca9911f396a" />
 
@@ -58,7 +58,7 @@ Eradication:
 Brute-force attempts were unsuccessful, and no threats have been identified in connection with this incident.
 
 Post-Incident:
-Notes were recorded within the incident and a corporate policy was proposed to require this for all VMs going forward. (this can be done with Azure Policy). The incident was then closed out. 
+Notes were recorded within the incident and a corporate policy was proposed to require this for all VMs going forward (done with Azure Policy). The incident was then closed out. 
 
 <img width="372" height="369" alt="brave_z4GzfUct4H" src="https://github.com/user-attachments/assets/c18a4cfb-b9ae-44b1-a905-7f5fa835a82b" />
 
