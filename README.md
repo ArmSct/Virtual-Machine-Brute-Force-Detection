@@ -4,7 +4,7 @@
 ## Platforms and Languages Leveraged
 - Windows 10 Virtual Machines (Microsoft Azure)
 - EDR Platform: Microsoft Defender for Endpoint
-- Kusto Query Language (KQL)
+- Kusto Query Language (KQL) 
  
 ## Scenario
 In this lab, I simulate and investigate a brute force attack scenario using Microsoft Defender for Endpoint and Microsoft Sentinel. The goal is to detect when the same remote IP address fails to log in to the same virtual machine 10 or more times within a 5-hour window.
